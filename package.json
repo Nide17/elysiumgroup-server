@@ -1,0 +1,32 @@
+{
+  "name": "elysiumgroup-server",
+  "version": "1.0.0",
+  "description": "Elysium Group is a company based in Rwanda, Kigali in Kicukiro District which provides various services and products.",
+  "main": "server.js",
+  "author": "Nide17 <nidedrogba@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "gravatar": "^1.8.1",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.6",
+    "nodemailer": "^6.6.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
