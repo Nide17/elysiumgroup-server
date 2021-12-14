@@ -9,5 +9,3 @@ Elysium Group is a company based in Rwanda, Kigali in Kicukiro District which pr
 - mongo as a service: net start MongoDB
 
 IPNTECH > ELYSIUMGROUP
-
-string: mongodb+srv://nide:<password>@cluster0.jugcf.mongodb.net/<dbname>?retryWrites=true&w=majority
